@@ -364,7 +364,7 @@ if __name__ == "__main__":
         gui()  # otherwise run the GUI version
         
         
-# ------------------------------- Old backup.d code follows -------------------------------
+# ================================= Old backup.d code follows =====================================
 
 """ backup.d/backup.py
 
@@ -394,6 +394,7 @@ project/
 
 """
 
+"""
 from colorama import init
 from colorama import Style, Fore, Back
 import vars
@@ -482,3 +483,5 @@ if os.path.isdir(vars.stick):
 else:
     print Style.BRIGHT + "\nMount a portable drive at " + vars.stick + " and use "
     print Fore.GREEN + "  'rsync -aruvi " + local + " " + vars.stick + "' " + Fore.RESET + "to copy the backup there.\n\n" + Style.RESET_ALL
+
+"""
